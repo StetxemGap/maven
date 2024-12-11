@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0  http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.myProject</groupId>
+    <artifactId>maven</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>suite</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <maven.compile.source>22</maven.compile.source>
+        <maven.compile.target>22</maven.compile.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.ph</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Korenko Yulia</name>
+            <email>sisisisi823@gmail.com</email>
+            <organization>com.github.StetxemGap</organization>
+            <organizationUrl>https://github.com/StetxemGap</organizationUrl>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>../core</module>
+        <module>../service</module>
+        <module>../console</module>
+    </modules>
+
+</project>
